@@ -63,7 +63,7 @@ int login(int username, int password)
 
 void gotoxy(int x, int y)
 {
-	COORD CR;
+	//COORD CR;
 	CR.X=x;
 	CR.Y=y;
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), CR);
