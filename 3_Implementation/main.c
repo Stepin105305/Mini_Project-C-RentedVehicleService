@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include<conio.h>
+//#include<conio.h>
 #include<ctype.h>
 #include<windows.h>
 #include<time.h>
@@ -52,7 +52,7 @@ int login(int username, int password)
     if(i>2)
     {
         printf("\nSorry you have entered the wrong username and password for four times!!!");
-        getch();
+        //getch();
 
     }
 		system("cls");
@@ -158,7 +158,7 @@ int view()
 		j++;
     }
     printf("\n");
-    getch();
+   // getch();
     return 1;
     fclose(fp1);
 }
