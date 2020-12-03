@@ -10,8 +10,8 @@
 #include <stdlib.h>
 //#include<conio.h>
 #include<ctype.h>
-#include<windows.h>
-#include<time.h>
+//#include<windows.h>
+//#include<time.h>
 #include "testlogin.h"
 /**
 * Structure is created to store the required details.
